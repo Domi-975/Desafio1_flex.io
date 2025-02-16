@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    
+}
+.cuerpo{
+    display: flex;
+}
+
+.container {
+    display: flex; 
+    height: 100vh;
+ }
+
+.contactos {
+    
+    display: flex; 
+    flex-direction: column; 
+    width: 30%;
+    justify-content: center;
+    border-bottom: 2px solid #ccc;
+    
+    
+   
+}
+
+.contacto {
+    display: flex; 
+    align-items: center;     
+    padding: 15px 20px;
+    border-right:2px solid #ccc ;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
+    
+
+}
+.contacto:last-child {
+    border-bottom: none; 
+}
+.contacto img{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 20px; 
+ 
+}
+.Nombre{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.estado{
+    font-size:  9px; 
+    color: #BEC1BB;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+    margin-left: 50px;
+    color: #BEC1BB;
+} 
+
+.iconos i {
+    font-size: 20px;}
+
+.boton-container {
+    border-right:2px solid #ccc ;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    }
+    .chats{
+    border-right:2px solid #ccc ;
+    border-bottom: 2px solid #ccc;
+    }
+
+
+.nuevo-chat {
+    padding: 15px 60px; 
+    font-size: 18px; 
+    background-color: #A491D2;
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+.nuevo-chat:hover {
+    background-color: #CDC3E6; 
+    border-color: #A2B2D4; }
+
+.nuevo-chat:focus {
+    background-color: #BEC1BB; /* Color Grey al recibir foco */
+    border-color: #A2B2D4; /* Cambia el color del borde al recibir foco */
+    outline: none; 
+}
+
+.principal {
+   
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+     width: 90%;
+    background-color: #e8ebe4;
+
+}
+
+.Manos {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+}
+
+    .Manos p {
+        margin: 5px 0; /* Reduce el margen superior e inferior de los párrafos */
+        text-align: center; 
+        font-size: small;
+    }
+
+.principal img{  
+    max-width: 100%; 
+    height: auto;
+    width: 200px;
+    padding-left: 20px;
+    
+    }
+.manos img{ 
+    width: 300px;
+    height: 300px;
+
+}
+
+.titulo {
+    margin: 5px 0; 
+    text-align: center; 
+    font-size: 38px; 
+    color: #444749;
+    font-weight: 300;}
+
+    .negrita {
+        font-weight: bold;     }
